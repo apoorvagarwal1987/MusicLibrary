@@ -15,17 +15,11 @@ Compile the project
 Execute the project
 ===============
 
-
 1. Change the current directory to the src.
-
 1. Provide following arguments to the command line
-    11. Input_file_name.json
-    11. Change_file_name.json
-    11. Operation_to_be_perform 
-        111. 0: ADD_PLAYLIST, 
-        111. 1: REMOVE_PLAYLIST, 
-        111. 2: ADD_SONGS_TO_PLAYLIST
-        
+    1. Input_file_name.json
+    1. Change_file_name.json
+    1. Operation_to_be_perform 0: ADD_PLAYLIST, 1: REMOVE_PLAYLIST, 2: ADD_SONGS_TO_PLAYLIST   
 1. An example command would look like 
 >         java -cp .:../json-simple-1.1.1.jar operation/Operation /Users/apoorvagarwal/IdeaProjects/MusicLibrary/resources/mixtape-data.json /Users/apoorvagarwal/IdeaProjects/MusicLibrary/resources/add_songs_to_playlist.json 0
 
